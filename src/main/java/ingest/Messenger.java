@@ -10,7 +10,7 @@ public class Messenger extends MQSender {
         super();
     }
 
-    public MQArgs getMessage() throws Exception {
+    public MQArgs getMQArgs() throws Exception {
 
         MQArgs args = new MQArgs();
         args.setQueueHost(Properties.getValue("queueHost"));

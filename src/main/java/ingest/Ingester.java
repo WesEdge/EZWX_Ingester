@@ -1,6 +1,5 @@
 package ingest;
 
-import java.io.IOException;
 import java.net.URL;
 
 import EZWX.core.Properties;
@@ -11,7 +10,6 @@ import EZWX.core.Downloader;
 import net.rubyeye.xmemcached.MemcachedClient;
 import net.rubyeye.xmemcached.XMemcachedClient;
 import net.rubyeye.xmemcached.transcoders.SerializingTranscoder;
-import ucar.grib.GribChecker;
 
 public class Ingester implements MQActor  {
 
